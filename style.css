@@ -1,0 +1,71 @@
+/* Fonte do site */
+body, h1, p, button {
+  font-family: 'Intro Rust', Arial, sans-serif;
+}
+
+/* Fundo geral do quiz */
+body {
+  background-color: #000000; /* preto */
+  text-align: center;
+  padding: 80px 20px;
+  color: #ffffff; /* letras brancas */
+}
+
+/* Título e perguntas */
+h1 {
+  color: #ffffff;
+}
+
+p {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/* Perguntas escondidas suavemente */
+.question {
+  transition: opacity 0.5s ease;
+}
+
+.question.hidden {
+  opacity: 0;
+  display: none;
+}
+
+/* Botões */
+button {
+  display: block;
+  width: 250px;
+  margin: 25px auto;
+  padding: 20px 0;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  background-color: #333333; /* cinza escuro */
+  color: #ffffff; /* texto branco */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #555555; /* cinza mais claro ao passar o mouse */
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: 3px solid #ffffff; /* contorno branco */
+  outline-offset: 3px;
+}
+
+/* Resultado final */
+#result {
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Botão do resultado */
+a button {
+  margin-top: 30px;
+}
