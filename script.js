@@ -25,13 +25,13 @@ function showResult(){
 
   if(total <= 5){
     resultText = "Nível Iniciante 🏓";
-    planLink = "https://vestuarioaxel.my.canva.site/spinzonetenisdemesa/#pacotes-iniciante";
+    planLink = "https://vestuarioaxel.my.canva.site/spinzonetenisdemesa/pacotes---iniciante---dark";
   } else if(total <= 10){
     resultText = "Nível Intermediário 🧠";
-    planLink = "https://vestuarioaxel.my.canva.site/spinzonetenisdemesa/pacotes---intermedirio";
+    planLink = "https://vestuarioaxel.my.canva.site/spinzonetenisdemesa/pacotes---intermedirio---dark";
   } else{
     resultText = "Nível Avançado 🚀";
-    planLink = "https://vestuarioaxel.my.canva.site/spinzonetenisdemesa/pacotes---avanado";
+    planLink = "https://vestuarioaxel.my.canva.site/spinzonetenisdemesa/pacotes---avanado---dark";
   }
 
   document.getElementById("resultText").innerText = resultText;
